@@ -1,0 +1,11 @@
+<div class="container" (click)=" openDialog()">
+    <div class="imgContainer"  >
+        <img src="{{imgUrl}}" alt="Meal">
+    </div>
+    <div class="textContainer">
+        <h2 class="textItems">Quick and healthy recipes</h2>
+        <h3 class="textItems" [(ngModel)]="mealItem">{{mealItem}}</h3>
+        <p class="textItems" [(ngModel)]="mealDescription">{{mealDescription}}</p>
+    </div>
+    
+</div>

@@ -1,0 +1,17 @@
+<div id="container">
+
+    <h2>Current target</h2>
+    <div id="pieCon">
+        <ngx-charts-pie-grid id= "pie" [results] ="goalList" [tooltipDisabled] = "true" [label]="label" [designatedTotal]="designatedTotal">
+
+        </ngx-charts-pie-grid>
+        
+    </div>
+    <div id="currentGoal">
+        <p>Your last known weight is <b>{{currentWeight}}lb</b> and target weight is set to <b>{{targetWeight}}lb</b>.</p>
+        <p><b>{{weightTolose}}lb</b>to lose to reach your target</p>
+    </div>
+   
+  
+</div>
+

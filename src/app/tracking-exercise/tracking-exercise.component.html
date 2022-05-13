@@ -1,0 +1,13 @@
+<h3>Exercise tracking</h3>
+<div >
+    <select id="options" [(ngModel)]="optionsExerciseName" (change) ="toggleInfo()" >
+        
+        <option value="{{e.name}}" *ngFor="let e of exerciseData">{{e.name}}</option>
+    </select>
+    <div *ngIf="showInfo">
+    <p> Add additional hours to your <b>{{optionsExerciseName}}</b> exercise:</p>
+    <input [(ngModel)] ="optionsExerciseValue"> <button (click)="onClickUpdate()">Update</button>
+    
+    </div>
+
+</div>

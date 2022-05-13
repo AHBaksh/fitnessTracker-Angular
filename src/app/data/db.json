@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Cardio",
+      "value": 150
+    },
+    {
+      "id": 2,
+      "name": "Endurance",
+      "value": 10
+    },
+    {
+      "id": 3,
+      "name": "Strength",
+      "value": 20
+    },
+    {
+      "id": 4,
+      "name": "Others",
+      "value": 20
+    }
+  ],
+  
+  "weight": [
+    {
+      "id": 1,
+      "value": 215
+    },
+    {
+      "id": 2,
+      "value": 185
+    },{
+      "id":3,
+      "value": 224
+    }
+  ],
+  "weighthistory": [
+    {
+      "id": 1,
+      "name": "",
+      "series": [
+        {
+          "id": 1,
+          "name": "23/3/2022",
+          "value": 241
+        },
+        {
+          "id": 2,
+          "name": "4/4/2022",
+          "value": 238
+        },
+        {
+          "id": 3,
+          "name": "18/4/2022",
+          "value": 233
+        },
+        {
+          "id": 4,
+          "name": "25/4/2022",
+          "value": 229
+        },
+        {
+          "id": 5,
+          "name": "11/5/2022",
+          "value": 215
+        }
+      ]
+    }
+  ],
+  "healthyMeals":[
+    {"id":1, 
+      "name":"Chicken satay salad",
+      "description": "Marinate chicken breasts, then drizzle with a punchy peanut satay sauce for a no-fuss, midweek meal that's high in protein and big on flavour.",
+      "ingredients":["1tbsp tamari",
+        "1tsp medium curry powder",
+        "¼tsp ground cumin",
+        "1 garlic clove, finely grated",
+        "1tsp clear honey",
+        "2 skinless chicken breast fillets (or use turkey breast)",
+        "1tbsp crunchy peanut butter (choose a sugar-free version with no palm oil, if possible)",
+        "1tbsp sweet chilli sauce",
+        "1tbsp lime juice",
+        "sunflower oil, for wiping the pan",
+        "2 Little Gem lettuce hearts, cut into wedges",
+        "¼ cucumber, halved and sliced",
+        "1 banana shallot, halved and thinly sliced",
+        "coriander, chopped",
+        "seeds from ½ pomegranate"],
+        "method":[
+          
+                  "Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+
+                  "Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
+
+                  "While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."],
+        "prepTime":15,
+        "cookTime":"5-10 mins",
+        "serves": 2,
+        "nutrition":{
+          "kcal":353,
+          "fat": "10g",
+          "saturates": "2g",
+          "carbs": "24g",
+          "sugars":"21g",
+          "fibre": "7g",
+          "protein": "38g",
+          "salt":"1.6g"},
+          "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-satay-salad-8f5b068.jpg"
+
+    }
+  ]
+}

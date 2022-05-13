@@ -1,0 +1,17 @@
+<div id="container">
+  <h2>Weight Loss Progress</h2>
+  <div id="chartCon">
+    <ngx-charts-line-chart
+      id="line"
+      [results]="weightData"
+      [xAxis]="xAxis"
+      [yAxis]="yAxis"
+      [yScaleMin]="yScaleMin"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+    >
+    </ngx-charts-line-chart>
+  </div>
+</div>

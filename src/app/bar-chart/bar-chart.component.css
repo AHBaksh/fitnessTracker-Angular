@@ -1,0 +1,29 @@
+#container{    
+    /* font-family: 'Open Sans', sans-serif;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 2px 5px #eee;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px; */
+    padding: 10px;
+}
+#overviewCon{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    
+}
+#overview{
+    width: 40%;
+    
+}
+#bar{
+    padding: 20px 10px 20px 10px ;
+    margin: 0 ;
+    height: 300px;
+    width: 60%;
+}

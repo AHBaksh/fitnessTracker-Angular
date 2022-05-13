@@ -1,0 +1,19 @@
+<div id="container">
+    
+    <h3> Enter your current weight</h3>
+    <input [(ngModel)]="currentWeightEntry">
+    <input [(ngModel)]="date">
+    <button (click) ="updateWeightValue(1)">Save</button>
+    <!-- <div>
+        <input type="text" [(ngModel)]="wData">
+        <button (click)="updateFunc(1)" >update</button>
+
+        <button (click)="testFunc()">TEST</button>
+    </div> -->
+
+    <h3>Your current weight loss target is:</h3>
+    <input [(ngModel)]="targetWeightEntry">
+    <button (click)="updateTargetWeightValue(2)">Save</button>
+
+
+</div>

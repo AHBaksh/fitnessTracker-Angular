@@ -1,0 +1,21 @@
+#container{    
+    /* font-family: 'Open Sans', sans-serif;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 2px 5px #eee;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px; */
+    text-align: center;
+    padding-top: 20px;
+   
+    
+}
+#chartCon{
+    display: flex;
+    height: 300px;
+    margin: 20px;
+
+}
+

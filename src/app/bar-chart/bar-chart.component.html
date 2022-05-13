@@ -1,0 +1,43 @@
+<div id="container">
+    <div id="overviewCon">
+    <div id="overview">
+        <h2>Exercise Overview</h2>
+        <br>
+        <p>Here is an overview of how much work you have put in so far.</p>
+        <p>So far you have worked out <b>{{totalHours}}</b> hours</p>
+        <p>You seem to favour <b>{{favour}} </b></p>
+        <p>Currently you have <b>{{maxHours}}</b> hours in <b>{{favour}}</b></p>
+    </div>
+    <div id="bar">
+        <ngx-charts-bar-vertical
+          [results]="dataList"
+          [xAxis]="xAxis"
+          [yAxis]="yAxis"
+          [showGridLines]="showGridLines"
+          [animations] ="animations"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [yScaleMax]="yScaleMax"
+          
+        >
+        
+        </ngx-charts-bar-vertical>
+      </div>
+      <p> </p>
+    </div>
+  
+
+
+
+  <!-- <h3>create</h3>
+  <input type="text" [(ngModel)]="nameData" />
+  <input type="text" [(ngModel)]="valueData" />
+  <button (click)="formData()">Submit</button>
+
+
+
+  <div *ngIf="msgTure">Data updated successfully</div> -->
+</div>
+
