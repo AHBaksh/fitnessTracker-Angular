@@ -8,6 +8,8 @@ export class DataService {
 
   constructor(private httpClient: HttpClient)  { }
 
+
+
   getData(){
     return this.httpClient.get('http://localhost:3000/data')
     
@@ -58,4 +60,17 @@ export class DataService {
 
   }
 
+  randomise(value:number){
+    return Math.floor(Math.random()* value)
+
+  }
+  mData:any
+  shareMealsData(obj:any,value:number){
+
+    return this.mData = obj[this.randomise(value)]
+   
+  }
 }
+
+
+

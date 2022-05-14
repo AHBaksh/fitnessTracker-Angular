@@ -18,17 +18,20 @@ export class MealsComponent implements OnInit {
   imgUrl:string ='';
 
   ngOnInit(): void {
+    
     this.dataservice.getMealsData().subscribe(data =>{
       this.mealsData =data;
-       this.imgUrl= this.mealsData[0].imgUrl
-       this.mealItem = this.mealsData[0].name
-       this.mealDescription =this.mealsData[0].description
+      this.dataservice.shareMealsData(this.mealsData, this.mealsData.length)
+      console.log(this.dataservice.mData)
+       this.imgUrl= this.dataservice.mData.imgUrl
+       this.mealItem = this.dataservice.mData.name
+       this.mealDescription =this.dataservice.mData.description
     })
   }
   openDialog(){
     this.dialog.open(PopupComponent, {
-      height: '400px',
-      width: '600px',
+      height: '75%',
+      width: '70%',
     })
   }  
 

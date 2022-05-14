@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Cardio",
-      "value": 150
+      "value": 155
     },
     {
       "id": 2,
@@ -21,17 +21,17 @@
       "value": 20
     }
   ],
-  
   "weight": [
     {
       "id": 1,
-      "value": 215
+      "value": 214
     },
     {
       "id": 2,
       "value": 185
-    },{
-      "id":3,
+    },
+    {
+      "id": 3,
       "value": 224
     }
   ],
@@ -64,15 +64,22 @@
           "id": 5,
           "name": "11/5/2022",
           "value": 215
+        },
+        {
+          "id": 6,
+          "name": "14/5/2022",
+          "value": 214
         }
       ]
     }
   ],
-  "healthyMeals":[
-    {"id":1, 
-      "name":"Chicken satay salad",
+  "healthyMeals": [
+    {
+      "id": 1,
+      "name": "Chicken satay salad",
       "description": "Marinate chicken breasts, then drizzle with a punchy peanut satay sauce for a no-fuss, midweek meal that's high in protein and big on flavour.",
-      "ingredients":["1tbsp tamari",
+      "ingredients": [
+        "1tbsp tamari",
         "1tsp medium curry powder",
         "¼tsp ground cumin",
         "1 garlic clove, finely grated",
@@ -86,27 +93,251 @@
         "¼ cucumber, halved and sliced",
         "1 banana shallot, halved and thinly sliced",
         "coriander, chopped",
-        "seeds from ½ pomegranate"],
-        "method":[
-          
-                  "Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+        "seeds from ½ pomegranate"
+      ],
+      "method": [
+        "Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+        "Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
+        "While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "5-10 mins",
+      "serves": 2,
+      "nutritionInfo": [
+        "kcal",
+        "fat",
+        "saturates",
+        "carbs",
+        "sugars",
+        "fibre",
+        "protein",
+        "salt"
+      ],
+      "nutritionData": {
+        "kcal": [
+          {
+            "name": "kcal",
+            "value": "353"
+          }
+        ],
+        "fat": [
+          {
+            "name": "fat",
+            "value": "10g"
+          }
+        ],
+        "saturates": [
+          {
+            "name": "saturates",
+            "value": "2g"
+          }
+        ],
+        "carbs": [
+          {
+            "name": "carbs",
+            "value": "24g"
+          }
+        ],
+        "sugars": [
+          {
+            "name": "sugars",
+            "value": "21g"
+          }
+        ],
+        "fibre": [
+          {
+            "name": "fibre",
+            "value": "7g"
+          }
+        ],
+        "protein": [
+          {
+            "name": "protein",
+            "value": "38g"
+          }
+        ],
+        "salt": [
+          {
+            "name": "salt",
+            "value": "1.6g"
+          }
+        ]
+      },
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-satay-salad-8f5b068.jpg"
+    },
+    {
+      "id":2,
+      "name": "Pomegranate chicken with almond couscous",
+      "description": "Jazz up chicken breasts in this fruity, sweetly spiced sauce with pomegranate seeds, toasted almonds and tagine paste.",
+      "ingredients": [
+        "1 tbsp vegetable oil",
+        "200g couscous",
+        "1 chicken stock cube",
+        "1 large red onion, halved and thinly sliced",
+        "600g chicken mini fillets",
+        "4 tbsp tagine spice paste or 2 tbsp harissa",
+        "190ml bottle pomegranate juice (not sweetened; we used Pom Wonderful)",
+        "100g pack pomegranate seeds",
+        "100g pack toasted flaked almond",
+        "small pack mint, chopped"
+      ],
+      "method": [
+        "Boil the kettle and heat the oil in a large frying pan. Put the couscous in a bowl with some seasoning and crumble in half the stock cube. Add the onion to the pan and fry for a few mins to soften. Pour boiling water over the couscous to just cover, then cover the bowl with a tea towel and set aside.",
+        "Push the onion to one side of the pan, add the chicken fillets and brown on all sides. Stir in the tagine paste or harissa and the pomegranate juice, then crumble in the rest of the stock cube and season well. Simmer, uncovered, for 10 mins until the sauce has thickened and the chicken is cooked through. Stir through the pomegranate seeds, saving a few to scatter over before serving.",
+        "After 5 mins, fluff up the couscous with a fork and stir through the almonds and mint. Serve the chicken on the couscous with the sauce spooned over."
+      ],
+      "prepTime": "5 mins",
+      "cookTime": "15mins",
+      "serves": 4,
+      "nutritionInfo": [
+        "kcal",
+        "fat",
+        "saturates",
+        "carbs",
+        "sugars",
+        "fibre",
+        "protein",
+        "salt"
+      ],
+      "nutritionData": {
+        "kcal": [
+          {
+            "name": "kcal",
+            "value": "590"
+          }
+        ],
+        "fat": [
+          {
+            "name": "fat",
+            "value": "20g"
+          }
+        ],
+        "saturates": [
+          {
+            "name": "saturates",
+            "value": "2g"
+          }
+        ],
+        "carbs": [
+          {
+            "name": "carbs",
+            "value": "50g"
+          }
+        ],
+        "sugars": [
+          {
+            "name": "sugars",
+            "value": "14g"
+          }
+        ],
+        "fibre": [
+          {
+            "name": "fibre",
+            "value": "4g"
+          }
+        ],
+        "protein": [
+          {
+            "name": "protein",
+            "value": "50g"
+          }
+        ],
+        "salt": [
+          {
+            "name": "salt",
+            "value": "0.4g"
+          }
+        ]
+      },
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/pomegranate-chicken-24d0745.jpg"
 
-                  "Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
-
-                  "While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."],
-        "prepTime":15,
-        "cookTime":"5-10 mins",
-        "serves": 2,
-        "nutrition":{
-          "kcal":353,
-          "fat": "10g",
-          "saturates": "2g",
-          "carbs": "24g",
-          "sugars":"21g",
-          "fibre": "7g",
-          "protein": "38g",
-          "salt":"1.6g"},
-          "imgUrl":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-satay-salad-8f5b068.jpg"
+    },
+    {
+      "id":3,
+      "name": "Prawn & salmon burgers with spicy mayo",
+      "description": "These prawn and salmon burgers are not only fabulously tasty, they're healthy too, being rich in omega-3. Make them for the family in just 25 minutes.",
+      "ingredients": [
+        "180g pack peeled raw prawns, roughly chopped",
+        "4 skinless salmon fillets, chopped into small chunks",
+        "3 spring onions , roughly chopped",
+        "1 lemon , zested and juiced",
+        "small pack coriander",
+        "60g mayonnaise or Greek yogurt",
+        "4 tsp chilli sauce (we used sriracha)",
+        "2 Little Gem lettuces , shredded",
+        "1 cucumber , peeled into ribbons",
+        "1 tbsp olive oil",
+        "4 seeded burger buns , toasted, to serve"
+      ],
+      "method": [
+        "Briefly blitz half the prawns, half the salmon, the spring onions, lemon zest and half the coriander in a food processor until it forms a coarse paste. Tip into a bowl, stir in the rest of the prawns and salmon, season well and shape into four burgers. Chill for 10 mins.",
+        "Mix the mayo and chilli sauce together in a small bowl, season and add some lemon juice to taste. Mix the lettuce with the cucumber, dress with a little of the remaining lemon juice and 1 tsp olive oil, then set aside.",
+        "Heat the remaining oil in a large frying pan and fry the burgers for 3-4 mins each side or until they have a nice crust and the fish is cooked through. Serve with the salad on the side or in toasted burger buns, if you like, with a good dollop of the spicy mayo."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "10mins",
+      "serves": 4,
+      "nutritionInfo": [
+        "kcal",
+        "fat",
+        "saturates",
+        "carbs",
+        "sugars",
+        "fibre",
+        "protein",
+        "salt"
+      ],
+      "nutritionData": {
+        "kcal": [
+          {
+            "name": "kcal",
+            "value": "504"
+          }
+        ],
+        "fat": [
+          {
+            "name": "fat",
+            "value": "36g"
+          }
+        ],
+        "saturates": [
+          {
+            "name": "saturates",
+            "value": "5g"
+          }
+        ],
+        "carbs": [
+          {
+            "name": "carbs",
+            "value": "4g"
+          }
+        ],
+        "sugars": [
+          {
+            "name": "sugars",
+            "value": "4g"
+          }
+        ],
+        "fibre": [
+          {
+            "name": "fibre",
+            "value": "3g"
+          }
+        ],
+        "protein": [
+          {
+            "name": "protein",
+            "value": "39g"
+          }
+        ],
+        "salt": [
+          {
+            "name": "salt",
+            "value": "0.7g"
+          }
+        ]
+      },
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-salmon-burgers-with-spicy-mayo-2318455.jpg"
 
     }
   ]

@@ -1,1 +1,55 @@
-<h2 mat-dialog-title>Delete all elements?</h2>
+<div class="header">
+  <img src="{{ imgUrl }}" />
+
+  <div class="headertext">
+    <h2 mat-dialog-title>{{ mealItem }}</h2>
+    <p>{{ mealDescription }}</p>
+
+    <div class="flex">
+    <div class="nutriInfo">
+      <div *ngFor="let keys of newArray">
+        <ng-container *ngFor="let nI of nutriData[keys]">
+          <h5>{{ nI.name }}</h5>
+        </ng-container>
+        <ng-container *ngFor="let nD of nutriData[keys]">
+          <h5>{{ nD.value }}</h5>
+        </ng-container>
+      </div>
+      
+      
+    </div>
+    <div class="cookInfo">
+    <div >
+        <h5>Prep time:</h5>
+        <h5>{{pTime}}</h5>
+      </div>
+      <div>
+        <h5>Cook time:</h5>
+        <h5>{{cTime}}</h5>
+      </div>
+      <h4>Servings: {{serve}}</h4>
+    </div>
+    
+    </div>
+  </div>
+ 
+</div>
+<hr />
+
+<div class="contents">
+    <div class="ingredients">
+
+        <h3><b>Ingredients:</b></h3>
+        <h4 *ngFor="let in of ingredient">{{in}}</h4>
+
+    </div>
+    <div class="method">
+        <h2>How to cook</h2>
+        <ol>
+            <li *ngFor="let mlist of cookingMethod">{{mlist}}</li>
+        </ol>
+
+
+    </div>
+
+</div>
