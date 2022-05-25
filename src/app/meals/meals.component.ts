@@ -16,7 +16,6 @@ export class MealsComponent implements OnInit {
   mealDescription:string= '';
   mealItem:string ='';
   imgUrl:string ='';
-
   ngOnInit(): void {
     
     this.dataservice.getMealsData().subscribe(data =>{
@@ -30,8 +29,12 @@ export class MealsComponent implements OnInit {
   }
   openDialog(){
     this.dialog.open(PopupComponent, {
-      height: '75%',
-      width: '70%',
+
+      height: '85%',
+      width: '80%',
+      position: {top: '1%'},
+  
+      
     })
   }  
 

@@ -20,7 +20,12 @@ div{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 20px;
+    padding: 10px;
     text-align: center;
    
     
 }
+.bot {
+    margin: 60px;
+}
+

@@ -18,3 +18,16 @@
     margin: 20px;
 
 }
+
+@media only screen and (max-width: 600px) {
+ h2{
+     font-size: medium !important;
+ }
+ #chartCon{
+    display: flex;
+    height: 250px;
+    margin: 0px;
+
+}
+
+}

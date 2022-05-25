@@ -46,3 +46,90 @@ hr{
 h3{
     font-size: 25px;
 }
+@media only screen and (max-width: 1000px) {
+    h2{
+        font-size: larger !important;
+        text-align: center;
+    }
+    h3{
+        font-size: large !important;
+    }
+    p{
+        font-size: medium !important;
+    }
+
+
+
+}
+@media only screen and (max-width: 890px) {
+
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+    h2{
+        font-size: x-large !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        font-family: 'Open Sans', sans-serif;
+        border: 2px solid #eee;
+        border-radius: 10px;
+        box-shadow: 0px 5px 8px #eee;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    img{
+        border-radius: 10px;
+        opacity: 0.9;
+        min-width: auto;
+        width: 100%;
+        height: 100%;
+      
+    
+    }
+    h2{
+        font-size: large !important;
+        text-align: center;
+  /* position:relative;
+  top: 0%;
+  left: 50%;
+  z-index: 10;
+  
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0); */
+    }
+    h3{
+        font-size: medium !important;
+    }
+    p{
+        font-size: small !important;
+    }
+
+.textContainer{
+    padding: 30px 30px 30px 40px;
+   
+}
+h1{
+    margin-bottom: 20px !important;
+}
+.textItems{
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+    
+
+}

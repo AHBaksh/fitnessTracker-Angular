@@ -8,12 +8,12 @@
     {
       "id": 2,
       "name": "Endurance",
-      "value": 10
+      "value": 100
     },
     {
       "id": 3,
       "name": "Strength",
-      "value": 20
+      "value": 100
     },
     {
       "id": 4,
@@ -24,11 +24,11 @@
   "weight": [
     {
       "id": 1,
-      "value": 214
+      "value": 205
     },
     {
       "id": 2,
-      "value": 185
+      "value": 160
     },
     {
       "id": 3,
@@ -68,7 +68,22 @@
         {
           "id": 6,
           "name": "14/5/2022",
-          "value": 214
+          "value": 210
+        },
+        {
+          "id": 7,
+          "name": "15/5/2022",
+          "value": 209
+        },
+        {
+          "id": 8,
+          "name": "16/5/2022",
+          "value": 208
+        },
+        {
+          "id": 9,
+          "name": "17/5/2022",
+          "value": 205
         }
       ]
     }
@@ -166,7 +181,7 @@
       "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-satay-salad-8f5b068.jpg"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Pomegranate chicken with almond couscous",
       "description": "Jazz up chicken breasts in this fruity, sweetly spiced sauce with pomegranate seeds, toasted almonds and tagine paste.",
       "ingredients": [
@@ -250,10 +265,9 @@
         ]
       },
       "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/pomegranate-chicken-24d0745.jpg"
-
     },
     {
-      "id":3,
+      "id": 3,
       "name": "Prawn & salmon burgers with spicy mayo",
       "description": "These prawn and salmon burgers are not only fabulously tasty, they're healthy too, being rich in omega-3. Make them for the family in just 25 minutes.",
       "ingredients": [
@@ -338,7 +352,6 @@
         ]
       },
       "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-salmon-burgers-with-spicy-mayo-2318455.jpg"
-
     }
   ]
 }

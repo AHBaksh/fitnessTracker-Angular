@@ -27,3 +27,31 @@
     height: 300px;
     width: 60%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    #overviewCon{
+        flex-direction: column;
+        padding: 0px;
+    }
+    #overview{
+        width: 100%;
+        text-align: center;
+        
+    }
+    #bar{
+        padding: 20px 0px 20px 0px ;
+        margin: 0 ;
+        height: 300px;
+        width: 90%;
+    }
+    h2{
+        font-size: medium !important;
+    }
+    p{
+        font-size: small !important;
+
+    }
+
+
+}

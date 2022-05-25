@@ -1,0 +1,20 @@
+<h3>BMI Calculator</h3>
+
+<p>Enter your height in Metres(m):</p>
+
+<div class="input">
+    <input [(ngModel)]="inputHeight" />
+    
+</div>
+<button (click)="calculate()">Calculate</button>
+<p>{{message}}</p>
+
+<p *ngIf="toggle">Using you most recent weight measurement Your BMI score is <b>{{ BMI.toFixed(2)}}.</b></p>
+<div [ngSwitch]="true">
+<p *ngSwitchCase="BMI < 18.5 && BMI > 0">This puts you in the <b style="color:lightblue;">Underweight</b> category</p>
+<p *ngSwitchCase="BMI < 24.9 && BMI > 18.5">This puts you in the <b style="color:rgb(51, 51, 215);">Normal</b> category</p>
+<p *ngSwitchCase="BMI < 29.9 && BMI > 25">This puts you in the <b style="color:orange;">Overweight</b> category</p>
+<p *ngSwitchCase="BMI > 30">This puts you in the <b style="color: red;">Obese</b> category</p>
+<p *ngSwitchDefault></p>
+
+</div>

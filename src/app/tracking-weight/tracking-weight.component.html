@@ -1,19 +1,33 @@
-<div id="container">
-    
-    <h3> Enter your current weight</h3>
-    <input [(ngModel)]="currentWeightEntry">
-    <input [(ngModel)]="date">
-    <button (click) ="updateWeightValue(1)">Save</button>
-    <!-- <div>
+<div >
+  <h2>Weight tracking</h2>
+  
+  
+  <div class="input">
+      <div class="inner-input">
+          <h3>Enter your current weight(lb)</h3>
+        <input [(ngModel)]="currentWeightEntry" />
+        <h3>Date</h3>
+        <input [readonly]=true [(ngModel)]="date" />
+      </div>
+      
+    <button (click)="updateWeightValue(1)">Save</button>
+  </div>
+
+  <!-- <div>
         <input type="text" [(ngModel)]="wData">
         <button (click)="updateFunc(1)" >update</button>
 
         <button (click)="testFunc()">TEST</button>
     </div> -->
 
-    <h3>Your current weight loss target is:</h3>
-    <input [(ngModel)]="targetWeightEntry">
-    <button (click)="updateTargetWeightValue(2)">Save</button>
-
-
+  
+  <div class="input">
+      <div class="inner-input">
+        <h3>Your current weight loss target is:</h3>
+        <input [(ngModel)]="targetWeightEntry" />
+  </div>
+  
+    <button (click)="updateTargetWeightValue(2)">Update</button>
+  </div>
+  <p style="color: red;">{{message}}</p>
 </div>

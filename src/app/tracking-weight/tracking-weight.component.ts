@@ -14,6 +14,7 @@ export class TrackingWeightComponent implements OnInit {
   currentWeightEntry: number = 0;
   date: number | string = '00/00/0000';
   targetWeightEntry: number = 0;
+  message = '';
   constructor(public dataservice: DataService) {}
 
   ngOnInit(): void {
@@ -34,31 +35,29 @@ export class TrackingWeightComponent implements OnInit {
   }
 
   updateWeightValue(id: number) {
-    const objUpdateW = { id: id, value: Number(this.currentWeightEntry) };
-    const objUpdateWTracking = {
-      id: this.weightistoryData[0].series.length + 1,
-      name: this.date,
-      value: Number(this.currentWeightEntry),
-    };
-    this.wHD = this.weightistoryData;
-    this.wHD[0].series.push(objUpdateWTracking);
-    this.dataservice.updateweight(id, objUpdateW).subscribe();
-    this.dataservice.updateWeightHistory(this.wHD[0]).subscribe();
-    this.ngOnInit();
+    if (isNaN(Number(this.currentWeightEntry))) {
+      (this.message = 'Please enter a number');
+    } else {
+      this.message = '';
+      const objUpdateW = { id: id, value: Number(this.currentWeightEntry) };
+      const objUpdateWTracking = {
+        id: this.weightistoryData[0].series.length + 1,
+        name: this.date,
+        value: Number(this.currentWeightEntry),
+      };
+      this.wHD = this.weightistoryData;
+      this.wHD[0].series.push(objUpdateWTracking);
+      this.dataservice.updateweight(id, objUpdateW).subscribe();
+      this.dataservice.updateWeightHistory(this.wHD[0]).subscribe();
+    }
   }
 
   updateTargetWeightValue(id: number) {
+    if (isNaN(Number(this.targetWeightEntry))) {
+      (this.message = 'Please enter a number');
+    } else {
     const objUpdateW = { id: id, value: Number(this.targetWeightEntry) };
     this.dataservice.updateweight(id, objUpdateW).subscribe();
-  }
-
-  testFunc() {
-    const objUpdateWTracking = {
-      id: 1,
-      name: this.date,
-      value: Number(this.currentWeightEntry),
-    };
-    this.wHD = this.weightistoryData;
-    this.wHD[0].series.push(objUpdateWTracking);
+    }
   }
 }

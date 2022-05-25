@@ -1,10 +1,11 @@
-<h3>Exercise tracking</h3>
+<h2>Exercise tracking</h2>
 <div >
+    <p>Select an option from bellow and adjust your hours</p>
     <select id="options" [(ngModel)]="optionsExerciseName" (change) ="toggleInfo()" >
         
         <option value="{{e.name}}" *ngFor="let e of exerciseData">{{e.name}}</option>
     </select>
-    <div *ngIf="showInfo">
+    <div class="input"*ngIf="showInfo">
     <p> Add additional hours to your <b>{{optionsExerciseName}}</b> exercise:</p>
     <input [(ngModel)] ="optionsExerciseValue"> <button (click)="onClickUpdate()">Update</button>
     

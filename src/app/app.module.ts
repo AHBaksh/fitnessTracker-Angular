@@ -26,6 +26,8 @@ import { BarChartComponent } from './bar-chart/bar-chart.component'
 import {HttpClientModule} from '@angular/common/http';
 import {MatDialogModule} from '@angular/material/dialog';
 import { PopupComponent } from './popup/popup.component';
+import { TrackingBmiComponent } from './tracking-bmi/tracking-bmi.component';
+import {MatIconModule} from '@angular/material/icon'
 
 
 
@@ -45,6 +47,7 @@ import { PopupComponent } from './popup/popup.component';
     TrackingExerciseComponent,
     MealsComponent,
     PopupComponent,
+    TrackingBmiComponent,
   
    
   ],
@@ -56,7 +59,8 @@ import { PopupComponent } from './popup/popup.component';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatIconModule
 
   ],
   providers: [],

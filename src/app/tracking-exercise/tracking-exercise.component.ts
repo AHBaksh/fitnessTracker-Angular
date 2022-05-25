@@ -24,16 +24,11 @@ export class TrackingExerciseComponent implements OnInit {
     
     this.showInfo = true;
     this.optionsExerciseValue = this.exerciseData.find((data: any) => data.name === this.optionsExerciseName).value
-    if(this.optionsExerciseValue === undefined){
-
-      console.log('Hello')
-    }
   }
   onClickUpdate(){
     const newObj = {id:this.exerciseData.find((data: any) => data.name === this.optionsExerciseName).id, name: this.optionsExerciseName, value: Number(this.optionsExerciseValue)}
     this.dataservice.updateData(this.exerciseData.find((data: any) => data.name === this.optionsExerciseName).id, newObj).subscribe()
-    console.log(newObj)
-
+    
   }
 
 }
